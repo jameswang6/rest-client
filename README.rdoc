@@ -44,6 +44,12 @@ dependencies for you.
 
   RestClient.post "http://example.com/resource", { 'x' => 1 }.to_json, :content_type => :json, :accept => :json
 
+  RestClient.post "http://example.com/resource", xml_payload, :content_type => 'application/xml'
+
+
+  RestClient.post "http://example.com/resource", xml_payload, {:content_type => 'application/xml', :params => {:param1 => 1, :param2 => 'bla'}}
+
+
   RestClient.delete 'http://example.com/resource'
 
   response = RestClient.get 'http://example.com/resource'
