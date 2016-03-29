@@ -2,7 +2,7 @@
 
 Build status: {<img src="https://travis-ci.org/rest-client/rest-client.png" />}[https://travis-ci.org/rest-client/rest-client]
 
-Test added changes
+Test added changes ....
 A simple HTTP and REST client for Ruby, inspired by the Sinatra's microframework style
 of specifying actions: get, put, post, delete.
 
